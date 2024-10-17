@@ -26,7 +26,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2617801, y: 0.209205, z: 0.25839794}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1691064591056840421}
@@ -47,6 +47,7 @@ GameObject:
   - component: {fileID: 1169658198505885515}
   - component: {fileID: 6832818479112580567}
   - component: {fileID: 721970918363931778}
+  - component: {fileID: 1903048234989029734}
   m_Layer: 0
   m_Name: Cube(DisabledOnPlay)
   m_TagString: Untagged
@@ -152,6 +153,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb22904ec7760c846aae0fe9c1bc592a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1903048234989029734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825509707699805382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 1
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &2406800687858310040
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,8 +185,9 @@ GameObject:
   - component: {fileID: 7805757459429388579}
   - component: {fileID: 8319672210590824236}
   - component: {fileID: 6857205746859836824}
+  - component: {fileID: 6978959355134948426}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Cube(DisabledOnPlay)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -270,6 +291,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb22904ec7760c846aae0fe9c1bc592a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6978959355134948426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2406800687858310040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 1
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &3392017674808849889
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,8 +419,9 @@ GameObject:
   - component: {fileID: 1400183047009406506}
   - component: {fileID: 3987370414913044053}
   - component: {fileID: 9212538670960419722}
+  - component: {fileID: 6276689443899115474}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Cube(DisabledOnPlay)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -484,3 +525,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb22904ec7760c846aae0fe9c1bc592a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6276689443899115474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8220479001092355929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 1
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
