@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8036653-9bcd-4a09-b448-30127cb7894a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Imports/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imports/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="a8036653-9bcd-4a09-b448-30127cb7894a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +14,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/CombinationInteract.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ChurrosInteraction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CombinationInteract.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/Canvas/CanvasSizeCorrectInAwakeAndStart.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -90,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729155505421</updated>
       <workItem from="1729155505982" duration="898000" />
-      <workItem from="1729163347462" duration="2569000" />
+      <workItem from="1729163347462" duration="2910000" />
     </task>
     <servers />
   </component>
