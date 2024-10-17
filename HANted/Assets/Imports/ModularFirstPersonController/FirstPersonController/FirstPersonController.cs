@@ -172,7 +172,8 @@ public class FirstPersonController : MonoBehaviour
 
         if(useSprintBar)
         {
-            sprintBarBG.gameObject.SetActive(true);
+            // We don't need no background
+            sprintBarBG.gameObject.SetActive(false);
             sprintBar.gameObject.SetActive(true);
 
             float screenWidth = Screen.width;

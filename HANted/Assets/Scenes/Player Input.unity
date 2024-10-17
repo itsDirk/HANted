@@ -564,7 +564,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 2100000, guid: feda59ebbdf980a44bab7b62f0385b49, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4459864851397454648, guid: 6bacecc4f3df9584198879c73a6b6c36,
         type: 3}
       propertyPath: m_RaycastTarget
