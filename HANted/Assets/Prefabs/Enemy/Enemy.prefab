@@ -234,9 +234,16 @@ MonoBehaviour:
   patrolPoints:
   - {fileID: 0}
   - {fileID: 0}
-  followDistance: 4
-  attackDistance: 1
+  - {fileID: 0}
+  followDistance: 8
+  attackDistance: 1.5
+  speed: 0
+  slowedSpeed: 1
+  defaultSpeed: 3.5
+  slowed: 0
+  rotationSpeed: 5
   debug: 1
+  playerObjectName: Player
 --- !u!195 &8575222319648977532
 NavMeshAgent:
   m_ObjectHideFlags: 0

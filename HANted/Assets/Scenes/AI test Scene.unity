@@ -122,6 +122,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &254777686 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8160517551633160862, guid: 687056fd4642e4a4f8795b49c1b639ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 4291000041629319006}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &385790860 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1691064591056840421, guid: 687056fd4642e4a4f8795b49c1b639ff,
@@ -521,7 +527,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: cf3969dbf1f3c504da74993dcd2f45ea, type: 2}
+  m_NavMeshData: {fileID: 0}
   m_BuildHeightMesh: 0
 --- !u!4 &2033454532 stripped
 Transform:
@@ -738,6 +744,11 @@ PrefabInstance:
       propertyPath: patrolPoints.Array.data[1]
       value: 
       objectReference: {fileID: 2033454532}
+    - target: {fileID: 2950742363933663539, guid: 846001b0ffca3314f985f3d2016b65e8,
+        type: 3}
+      propertyPath: patrolPoints.Array.data[2]
+      value: 
+      objectReference: {fileID: 254777686}
     - target: {fileID: 7308114158869141969, guid: 846001b0ffca3314f985f3d2016b65e8,
         type: 3}
       propertyPath: m_LocalPosition.x
