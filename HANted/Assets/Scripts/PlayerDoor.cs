@@ -29,16 +29,31 @@ public class PlayerDoor : MonoBehaviour
     
     void Update()
     {
-        ToggleDoor();
+        _playerAimRay.origin = transform.position;
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            DetectDoor();
+        }
     }
 
-    private void ToggleDoor()
+    private void DetectDoor()
     {
-        if(Physics.Raycast(_playerAimRay, out RaycastHit hit, canOpenRadius) && _playerDoorGenerated.PlayerDoor.PlayerDoor.triggered)
+       
+        if(Physics.Raycast(_playerAimRay, out RaycastHit hit, canOpenRadius))
         {
+            Debug.Log("Hit: ");
+
             if (hit.transform.tag.Equals("Door"))
             {
-                hit.transform.GetComponent<Door>().ToggleDoor();
+                if (hit.transform.GetComponent<Door>() != null)
+                {
+                    Debug.Log("Door is not null");
+                    hit.transform.GetComponent<Door>().ToggleDoor();
+                }
+                else { 
+                    Debug.Log("Door is null");
+                }
             }
         }
     }
