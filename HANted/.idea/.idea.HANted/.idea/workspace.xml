@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8036653-9bcd-4a09-b448-30127cb7894a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HANted/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HANted/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HANted/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HANted/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HANted/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imports/placeholder.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/placeholder.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/placeholder.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Flashlight.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imports/ModularFirstPersonController/DemoScene/Demo.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imports/ModularFirstPersonController/DemoScene/Demo.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imports/ModularFirstPersonController/FirstPersonController/FirstPersonController.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imports/ModularFirstPersonController/FirstPersonController/FirstPersonController.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imports/placeholder.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imports/placeholder.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Flashlight.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Flashlight.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Player Input.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Player Input.unity.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +34,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Churros",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729155505421</updated>
-      <workItem from="1729155505982" duration="898000" />
+      <workItem from="1729155505982" duration="1549000" />
     </task>
     <servers />
   </component>
