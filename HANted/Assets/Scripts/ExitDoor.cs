@@ -7,7 +7,8 @@ public class ExitDoor : MonoBehaviour, IInteractable
     private float _closedRotation;
     public float openRotation = 90f;
     private float _openedRotation;
-    private GameObject controller;
+    [SerializeField]
+    private ControllerInteraction controller;
 
     private void Start()
     {
@@ -17,7 +18,7 @@ public class ExitDoor : MonoBehaviour, IInteractable
     
     public void Interact()
     {
-        if (!_isOpen && controller != null)
+        if (!_isOpen && controller.HasController)
         {
             OpenDoor();
         }
