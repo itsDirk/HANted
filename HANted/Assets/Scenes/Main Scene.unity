@@ -319,6 +319,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2631495275302039664, guid: f0f742d97af458f44b7cbbffbcfb5edc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2631495275302039664, guid: f0f742d97af458f44b7cbbffbcfb5edc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2631495275302039664, guid: f0f742d97af458f44b7cbbffbcfb5edc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.277
+      objectReference: {fileID: 0}
     - target: {fileID: 2728605592431981346, guid: f0f742d97af458f44b7cbbffbcfb5edc,
         type: 3}
       propertyPath: m_Name
@@ -327,7 +342,7 @@ PrefabInstance:
     - target: {fileID: 2728605592431981358, guid: f0f742d97af458f44b7cbbffbcfb5edc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.7
+      value: 8.43
       objectReference: {fileID: 0}
     - target: {fileID: 2728605592431981358, guid: f0f742d97af458f44b7cbbffbcfb5edc,
         type: 3}
@@ -374,6 +389,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3445011470777019082, guid: f0f742d97af458f44b7cbbffbcfb5edc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -382,6 +402,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1087813619}
+    - targetCorrespondingSourceObject: {fileID: 2728605591109654964, guid: f0f742d97af458f44b7cbbffbcfb5edc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1478183819}
   m_SourcePrefab: {fileID: 100100000, guid: f0f742d97af458f44b7cbbffbcfb5edc, type: 3}
 --- !u!1 &410087039
 GameObject:
@@ -557,6 +581,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Churros (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 340715139534682244, guid: ca07834acca98084e9b0337589e9b73e,
+        type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1087813620}
     - target: {fileID: 1138246705879017140, guid: ca07834acca98084e9b0337589e9b73e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -625,6 +654,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Churros (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 340715139534682244, guid: ca07834acca98084e9b0337589e9b73e,
+        type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1087813620}
     - target: {fileID: 1138246705879017140, guid: ca07834acca98084e9b0337589e9b73e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -933,6 +967,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Churros (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 340715139534682244, guid: ca07834acca98084e9b0337589e9b73e,
+        type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1087813620}
     - target: {fileID: 1138246705879017140, guid: ca07834acca98084e9b0337589e9b73e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1025,6 +1064,18 @@ MonoBehaviour:
   m_IgnoreFromBuild: 1
   m_ApplyToChildren: 1
   m_AffectedAgents: ffffffff
+--- !u!114 &1087813620 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2728605592431981352, guid: f0f742d97af458f44b7cbbffbcfb5edc,
+    type: 3}
+  m_PrefabInstance: {fileID: 292046823}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412564871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d90ba6530d9bfda47abb4610956b2f44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1118111072 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8160517551633160862, guid: 687056fd4642e4a4f8795b49c1b639ff,
@@ -1044,6 +1095,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Churros (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 340715139534682244, guid: ca07834acca98084e9b0337589e9b73e,
+        type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1087813620}
     - target: {fileID: 1138246705879017140, guid: ca07834acca98084e9b0337589e9b73e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1112,6 +1168,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Churros (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 340715139534682244, guid: ca07834acca98084e9b0337589e9b73e,
+        type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1087813620}
     - target: {fileID: 1138246705879017140, guid: ca07834acca98084e9b0337589e9b73e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1451,6 +1512,32 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25e2d4297b6648647b55d9e96e9c4c82, type: 3}
+--- !u!1 &1478183814 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2728605591109654964, guid: f0f742d97af458f44b7cbbffbcfb5edc,
+    type: 3}
+  m_PrefabInstance: {fileID: 292046823}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1478183815 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2728605591109654961, guid: f0f742d97af458f44b7cbbffbcfb5edc,
+    type: 3}
+  m_PrefabInstance: {fileID: 292046823}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1478183819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478183814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cc96e5c59a6892d0b57b7a67e54a4e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractorSource: {fileID: 1478183815}
+  InteractRange: 2
 --- !u!1001 &1521256244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1464,6 +1551,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Churros
       objectReference: {fileID: 0}
+    - target: {fileID: 340715139534682244, guid: ca07834acca98084e9b0337589e9b73e,
+        type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1087813620}
     - target: {fileID: 1138246705879017140, guid: ca07834acca98084e9b0337589e9b73e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1651,6 +1743,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Churros (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 340715139534682244, guid: ca07834acca98084e9b0337589e9b73e,
+        type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1087813620}
     - target: {fileID: 1138246705879017140, guid: ca07834acca98084e9b0337589e9b73e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1802,6 +1899,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Churros (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 340715139534682244, guid: ca07834acca98084e9b0337589e9b73e,
+        type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1087813620}
     - target: {fileID: 1138246705879017140, guid: ca07834acca98084e9b0337589e9b73e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1870,6 +1972,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Churros (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 340715139534682244, guid: ca07834acca98084e9b0337589e9b73e,
+        type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1087813620}
     - target: {fileID: 1138246705879017140, guid: ca07834acca98084e9b0337589e9b73e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2026,6 +2133,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Churros (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 340715139534682244, guid: ca07834acca98084e9b0337589e9b73e,
+        type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1087813620}
     - target: {fileID: 1138246705879017140, guid: ca07834acca98084e9b0337589e9b73e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2207,6 +2319,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Churros (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 340715139534682244, guid: ca07834acca98084e9b0337589e9b73e,
+        type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1087813620}
     - target: {fileID: 1138246705879017140, guid: ca07834acca98084e9b0337589e9b73e,
         type: 3}
       propertyPath: m_LocalPosition.x
