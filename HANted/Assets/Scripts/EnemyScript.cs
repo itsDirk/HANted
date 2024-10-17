@@ -135,7 +135,7 @@ public class EnemyScript : MonoBehaviour
 
             if (hitEffect != null)
             {
-                hitEffect.TakeDamage(0.1f);
+                hitEffect.TakeDamage(1f);
             }
 
         }
