@@ -9,6 +9,7 @@ public class HitEffect : MonoBehaviour
     [Range(0f, 1000f)]
     public float Health = 1000f; 
     private float maxHealth = 1000f; 
+    public GameObject player;
 
     Vignette vignette;
 
@@ -95,5 +96,11 @@ public class HitEffect : MonoBehaviour
     public void TakeDamage(float damageAmount)
     {
         Health -= damageAmount;
+        
+        if (Health <= 0)
+        {
+            player.transform.position = new Vector3(-19, 1, 0);
+            Health = maxHealth;
+        }
     }
 }
