@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a8036653-9bcd-4a09-b448-30127cb7894a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HANted/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HANted/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HitEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HitEffect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imports/ModularFirstPersonController/FirstPersonController/FirstPersonController.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imports/ModularFirstPersonController/FirstPersonController/FirstPersonController.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactor.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729155505421</updated>
       <workItem from="1729155505982" duration="898000" />
-      <workItem from="1729163347462" duration="3785000" />
+      <workItem from="1729163347462" duration="4789000" />
     </task>
     <servers />
   </component>

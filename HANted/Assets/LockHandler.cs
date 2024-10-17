@@ -31,6 +31,7 @@ public class LockHandler : MonoBehaviour
         {
             Shaft.transform.Rotate(0,-90f,0);
             DoOnce = false;
+            lockRigidBody.isKinematic = false;
             lockRigidBody.useGravity = true;
         }
     }
