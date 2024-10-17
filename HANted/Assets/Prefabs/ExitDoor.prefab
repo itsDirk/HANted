@@ -132,7 +132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1584797207048541382}
   - component: {fileID: 8775784572062996761}
-  - component: {fileID: 2060205278772078713}
+  - component: {fileID: 9187073750332739832}
   m_Layer: 0
   m_Name: ExitDoor
   m_TagString: Door
@@ -177,7 +177,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0.5, y: 0, z: 0}
---- !u!114 &2060205278772078713
+--- !u!114 &9187073750332739832
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -186,8 +186,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 6794826258440574733}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fa99032d497ce144a036ad06cf4bfbc, type: 3}
+  m_Script: {fileID: 11500000, guid: 06a14dd97e71fe241880b4cd0778db73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   openRotation: 90
-  _lockHandler: {fileID: 0}
+  controller: {fileID: 0}

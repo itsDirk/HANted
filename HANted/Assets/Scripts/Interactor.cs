@@ -43,7 +43,7 @@ public class Interactor : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            Interact();
+            MouseInteract();
         }
     }
 }
