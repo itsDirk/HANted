@@ -27,25 +27,20 @@ public class PlayerDoor : MonoBehaviour
         _playerAimRay = new Ray(transform.position, transform.forward);
     }
     
-    void Update() 
+    void Update()
     {
-        if (CanOpenDoor())
-        {
-            Debug.Log("opening door");
-        }
+        ToggleDoor();
     }
 
-    private bool CanOpenDoor()
+    private void ToggleDoor()
     {
         if(Physics.Raycast(_playerAimRay, out RaycastHit hit, canOpenRadius) && _playerDoorGenerated.PlayerDoor.PlayerDoor.triggered)
         {
             if (hit.transform.tag.Equals("Door"))
             {
-                return true;
+                hit.transform.GetComponent<Door>().ToggleDoor();
             }
         }
-
-        return false;
     }
 
     private void OnDrawGizmos()
