@@ -1,13 +1,15 @@
 using UnityEngine;
 using Quaternion = System.Numerics.Quaternion;
 
-public class Door : MonoBehaviour
+public class Door : MonoBehaviour, IInteractable
 {
     private bool _isOpen;
 
     private float _closedRotation;
     public float openRotation = 90f;
     private float _openedRotation;
+    [SerializeField]
+    private LockHandler _lockHandler;
 
     private void Start()
     {
@@ -15,11 +17,14 @@ public class Door : MonoBehaviour
         _openedRotation = _closedRotation + openRotation;
     }
     
-    public void ToggleDoor()
+    public void Interact()
     {
         if (!_isOpen)
         {
-            OpenDoor();
+            if (_lockHandler.IsOpen())
+            {
+                OpenDoor();
+            }
         }
         else
         {

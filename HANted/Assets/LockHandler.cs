@@ -1,5 +1,5 @@
-using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class LockHandler : MonoBehaviour
@@ -11,7 +11,10 @@ public class LockHandler : MonoBehaviour
     GameObject Shaft;
 
     [SerializeField]
-    List<CombinationInteract> NumberLocks; 
+    List<CombinationInteract> NumberLocks;
+    
+    [SerializeField]
+    Rigidbody lockRigidBody;
 
     // Update is called once per frame
     void Update()
@@ -29,6 +32,12 @@ public class LockHandler : MonoBehaviour
         {
             Shaft.transform.Rotate(0,-90f,0);
             DoOnce = false;
+            lockRigidBody.useGravity = true;
         }
+    }
+
+    public bool IsOpen()
+    {
+        return Open;
     }
 }
