@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a8036653-9bcd-4a09-b448-30127cb7894a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HANted/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HANted/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChurroInteractor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChurroInteractor.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Imports/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imports/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Player Input.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Player Input.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactor.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729155505421</updated>
       <workItem from="1729155505982" duration="898000" />
+      <workItem from="1729163347462" duration="1664000" />
     </task>
     <servers />
   </component>

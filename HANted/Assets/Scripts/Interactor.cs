@@ -42,8 +42,6 @@ public class Interactor : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Ik ben gelkliks");
-            // MouseInteract();
             Interact();
         }
     }

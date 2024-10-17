@@ -296,10 +296,7 @@ public class FirstPersonController : MonoBehaviour
             {
                 // Regain sprint while not sprinting
                 // sprintRemaining = Mathf.Clamp(sprintRemaining += 1 * Time.deltaTime, 0, sprintDuration);
-                
-                // Instead, gain sprint by eating churro
-                
-                
+
             }
 
             // Handles sprint cooldown 
@@ -366,6 +363,11 @@ public class FirstPersonController : MonoBehaviour
         {
             HeadBob();
         }
+    }
+    
+    public void ResetStamina(){
+        // Gain sprint by eating churro
+        sprintRemaining = sprintDuration;
     }
 
     void FixedUpdate()
@@ -740,7 +742,6 @@ public class FirstPersonController : MonoBehaviour
             SerFPC.ApplyModifiedProperties();
         }
     }
-
 }
 
 #endif
