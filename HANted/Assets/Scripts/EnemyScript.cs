@@ -3,6 +3,7 @@ using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Rendering;
 
 public class EnemyScript : MonoBehaviour
 {
@@ -31,6 +32,8 @@ public class EnemyScript : MonoBehaviour
 
     private Coroutine rotateCoroutine;
 
+    private Volume VolumeForTakingDamage;
+
 
 
     void Start()
@@ -40,6 +43,8 @@ public class EnemyScript : MonoBehaviour
         Player = GameObject.Find(playerObjectName).transform;
 
         agent.speed = defaultSpeed;
+
+        VolumeForTakingDamage = GameObject.Find("GlobalVolumeForTakingDamage").GetComponent<Volume>();
 
     }
 
@@ -122,11 +127,27 @@ public class EnemyScript : MonoBehaviour
 
         agent.SetDestination(transform.position);
 
+
+         if (VolumeForTakingDamage != null)
+        {
+            //get the scipt from the volume
+            HitEffect hitEffect = VolumeForTakingDamage.GetComponent<HitEffect>();
+
+            if (hitEffect != null)
+            {
+                hitEffect.TakeDamage(0.1f);
+            }
+
+        }
+
+
         if (debug == true)
         {
             Material mat = GetComponent<Renderer>().material;
             mat.color = Color.magenta;
         }
+
+
 
         if (distanceToPlayer > attackDistance + 0.1)
         {

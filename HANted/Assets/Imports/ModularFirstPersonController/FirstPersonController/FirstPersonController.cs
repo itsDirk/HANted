@@ -172,7 +172,8 @@ public class FirstPersonController : MonoBehaviour
 
         if(useSprintBar)
         {
-            sprintBarBG.gameObject.SetActive(true);
+            // We don't need no background
+            sprintBarBG.gameObject.SetActive(false);
             sprintBar.gameObject.SetActive(true);
 
             float screenWidth = Screen.width;
@@ -295,7 +296,8 @@ public class FirstPersonController : MonoBehaviour
             else
             {
                 // Regain sprint while not sprinting
-                sprintRemaining = Mathf.Clamp(sprintRemaining += 1 * Time.deltaTime, 0, sprintDuration);
+                // sprintRemaining = Mathf.Clamp(sprintRemaining += 1 * Time.deltaTime, 0, sprintDuration);
+
             }
 
             // Handles sprint cooldown 
@@ -362,6 +364,11 @@ public class FirstPersonController : MonoBehaviour
         {
             HeadBob();
         }
+    }
+    
+    public void ResetStamina(){
+        // Gain sprint by eating churro
+        sprintRemaining = sprintDuration;
     }
 
     void FixedUpdate()
@@ -736,7 +743,6 @@ public class FirstPersonController : MonoBehaviour
             SerFPC.ApplyModifiedProperties();
         }
     }
-
 }
 
 #endif

@@ -1,0 +1,34 @@
+{
+    "name": "PlayerDoor",
+    "maps": [
+        {
+            "name": "PlayerDoor",
+            "id": "6bec04b9-5c25-455d-a664-a7ecba32f91a",
+            "actions": [
+                {
+                    "name": "PlayerDoor",
+                    "type": "PassThrough",
+                    "id": "d344f3f2-7a58-4c71-8744-5e7df522eee7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "641aee24-eae6-4a3a-817a-1c126579edf7",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlayerDoor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
