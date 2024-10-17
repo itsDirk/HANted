@@ -295,7 +295,11 @@ public class FirstPersonController : MonoBehaviour
             else
             {
                 // Regain sprint while not sprinting
-                sprintRemaining = Mathf.Clamp(sprintRemaining += 1 * Time.deltaTime, 0, sprintDuration);
+                // sprintRemaining = Mathf.Clamp(sprintRemaining += 1 * Time.deltaTime, 0, sprintDuration);
+                
+                // Instead, gain sprint by eating churro
+                
+                
             }
 
             // Handles sprint cooldown 
