@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -8,6 +9,7 @@ public class EnemyScript : MonoBehaviour
 {
     public NavMeshAgent agent;
     public Transform Player;
+    [SerializeField] private Flashlight flashlight;
 
     public Transform[] patrolPoints;
     private Transform currentPatrol;
@@ -19,7 +21,7 @@ public class EnemyScript : MonoBehaviour
     public float attackDistance = 1f;
 
     public float speed;
-    public float slowedSpeed = 1f;
+    public float slowedSpeed = 0.1f;
     public float defaultSpeed = 3.5f;
     public bool slowed = false;
 
@@ -56,8 +58,11 @@ public class EnemyScript : MonoBehaviour
             agent.speed = defaultSpeed;
         }
 
-       
-
+        if (!flashlight.flashlightActive)
+        {
+            slowed = false;
+            agent.speed = defaultSpeed;
+        }
     }
 
     public void Patrol()
@@ -170,8 +175,6 @@ public class EnemyScript : MonoBehaviour
     public void SlowDown()
     {
         slowed = true;
-
-       Invoke("DeSLow", 0.2f);
     }
 
     public void DeSLow()

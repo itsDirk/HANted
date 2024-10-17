@@ -5,11 +5,13 @@ using UnityEngine;
 public class Flashlight : MonoBehaviour
 {
     [SerializeField] GameObject flashlight;
-    private bool flashlightActive = false;
+    [SerializeField] GameObject flashlightCollider;
+    public bool flashlightActive = false;
     // Start is called before the first frame update
     void Start()
     {
         flashlight.gameObject.SetActive(false);
+        flashlightCollider.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -20,11 +22,13 @@ public class Flashlight : MonoBehaviour
             if (flashlightActive == false)
             {
                 flashlight.gameObject.SetActive(true);
+                flashlightCollider.gameObject.SetActive(true);
                 flashlightActive = true;
             }
             else
             {
                 flashlight.gameObject.SetActive(false);
+                flashlightCollider.gameObject.SetActive(false);
                 flashlightActive = false;
             }
         }
